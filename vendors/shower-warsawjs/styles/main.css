@@ -1,3 +1,54 @@
 @import "modules/badge-top-left.css";
 @import "modules/front-page.css";
 @import "modules/warsawjs-theme.css";
+
+li {
+    font-size: 26px;
+}
+.slide ul>li::before {
+    margin-left: 50px;
+}
+
+.slide h3.font-big {
+    color: #000;
+    font-size: 48px;
+    padding: 0;
+    margin: 20px 0 4px 0;
+    line-height: normal;
+}
+
+.slide h3.font-medium {
+    color: #000;
+    font-size: 32px;
+    padding: 0;
+    margin: 20px 0 4px 0;
+    line-height: normal;
+}
+
+.slide h3.font-bullet {
+    color: #000;
+    font-size: 32px;
+    padding: 0;
+    margin: 50px 0 50px 50px;
+    line-height: normal;
+}
+
+div.center {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.thanks h2 {
+    color: #f7302f;
+    font-weight: normal;
+    font-size: 70px;
+    padding: 0;
+    margin: 20px 0 40px 0;
+    line-height: normal;
+}
+.thanks p.name {
+    font-size: 30px;
+}
+.thanks p.contact {
+    font-size: 24px;
+}
